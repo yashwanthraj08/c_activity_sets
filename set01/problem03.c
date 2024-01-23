@@ -10,6 +10,7 @@ a=input();
 b=input();
 sum=add(a,b);
 output (a,b,sum);
+return 0;
 }
 int input()
 {
