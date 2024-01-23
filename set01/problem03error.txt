@@ -1,0 +1,8 @@
+PS C:\Users\hp\sem2 psc\c_activity_sets> cd set01
+PS C:\Users\hp\sem2 psc\c_activity_sets\set01> gcc problem03.c
+PS C:\Users\hp\sem2 psc\c_activity_sets\set01> .\a.exe        
+enter the number
+3 
+enter the number
+4
+the sum of 3,4 is 7
