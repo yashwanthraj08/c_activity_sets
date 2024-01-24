@@ -1,0 +1,6 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> gcc problem05.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe
+enter two number:3
+enter two number:45
+enter two number:64
+the largest of 3,45 and 64 is 64
