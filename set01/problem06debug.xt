@@ -10,27 +10,25 @@ For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01\a.exe...done.
 (gdb) b main
-Breakpoint 1 at 0x401463
+Breakpoint 1 at 0x40146e: file problem03.c, line 9.
 (gdb) r
 Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01/a.exe 
-[New Thread 5972.0xbf0]
-[New Thread 5972.0xf68]
+[New Thread 12128.0xc78]
+[New Thread 12128.0x2f00]
 
-Breakpoint 1, 0x00401463 in main ()
+Breakpoint 1, main () at problem03.c:9
+9       a=input();
 (gdb) s
-Single stepping until exit from function main,
-which has no line number information.
-enter two number:s
-enter two number:enter two number:the largest of 6422476,6422476 and 6422476 is 6422476
-0x00401288 in __register_frame_info ()
+input () at problem03.c:18
+18          printf("enter the number\n");
 (gdb) s
-Single stepping until exit from function __register_frame_info,
-which has no line number information.
-0x0040128a in __register_frame_info ()
+enter the number
+19          scanf("%d",&x);
+(gdb) s
+s
+20          return x;
+(gdb) c
+Continuing.
+enter the number
+the sum of 6422476,6422476 is 12844952[Inferior 1 (process 12128) exited normally]
 (gdb) q
-A debugging session is active.
-
-        Inferior 1 [process 5972] will be killed.
-
-Quit anyway? (y or n) y
-error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
