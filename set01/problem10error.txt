@@ -1,0 +1,6 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> gcc problem10.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe
+Enter the first string: 3
+Enter the second string: 4
+4 is grater than 3
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01>
