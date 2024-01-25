@@ -1,0 +1,6 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> gcc problem08.c  
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe        
+Enter 2 numbers:
+5
+The numbers entered are:4 5 
+The sum of the entered numbers is: 9
