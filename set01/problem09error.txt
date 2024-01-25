@@ -1,0 +1,5 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> gcc problem09.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe
+Enter the number you want square root of36
+The square root of 36 is 6.000000
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01>
