@@ -1,0 +1,10 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> gcc problem11.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe        
+For first complex number:
+Enter real part: 3
+Enter imaginary part: 5
+
+For second complex number:
+Enter real part: 6
+Enter imaginary part: 7
+The sum of 3 + 5i and 6 + 7i is 9 + 12i

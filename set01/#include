@@ -1,0 +1,23 @@
+preprocessor will process the lines starting with #
+# will comvert input to binary
+"induce" stands for  processor directive 
+stdio is library and contains all te fuction prototype 
+what is int main()?
+the excecution starts from here 
+main is function 
+main return an integer 
+main is   starting point    of a program 
+printf is standard library function
+it is uded to print statement (string )ont the terminal
+\=escape character or sequenceit it moves curdor to new nile in terminal
+return statement tranfers control call funtion to calling fucntion and optionally return a value 
+
+
+
+
+
+
+
+
+
+

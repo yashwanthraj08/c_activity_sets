@@ -3,8 +3,14 @@
 #include<stdio.h>
 int main()
 {
-    int a=2,b=3,sum;
-    sum=a+b;
-    printf("%d",sum);
+int a,b ,sum;
+a=input();
+b=input();
+printf ("enter the a value\n");
+scanf("%d",&a);
+printf("enter the b value\n");
+scanf("%d",&b);
+sum =a+b;
+printf("%d",sum);
     return 0;
 }
