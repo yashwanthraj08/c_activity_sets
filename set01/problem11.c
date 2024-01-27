@@ -15,7 +15,7 @@ int main()
     Complex a, b, result;
     printf("For first complex number:\n");
     a = input_complex();
-    printf("\nFor second complex number:\n");
+    printf("For second complex number:\n");
     b = input_complex();
 
     result = add_complex(a, b);

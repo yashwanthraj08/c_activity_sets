@@ -4,33 +4,34 @@ Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
-and "show warranty" for details.    
-This GDB was configured as "mingw32".      
+and "show warranty" for details.
+This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
-<http://www.gnu.org/software/gdb/bugs/>...        
+<http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01\a.exe...done.
 (gdb) b main
-Breakpoint 1 at 0x401463
+Breakpoint 1 at 0x40146e: file problem11.c, line 16.
 (gdb) r
 Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01/a.exe 
-[New Thread 1420.0xc34]
-[New Thread 1420.0x2d5c]
+[New Thread 7180.0x3508]
+[New Thread 7180.0x3264]
 
-Breakpoint 1, 0x00401463 in main ()
+Breakpoint 1, main () at problem11.c:16
+16          printf("For first complex number:\n");
 (gdb) s
-Single stepping until exit from function main,
-which has no line number information.
 For first complex number:
-Enter real part: s
-Enter imaginary part: 
-For second complex number:
-Enter real part: Enter imaginary part: The sum of 0 + 2026210738700739000000000000000000i and 0 + 2026210738700739000000000000000000i is 0 + 4052421477401478000000000000000000i
-0x00401288 in __register_frame_info ()
+17          a = input_complex();
 (gdb) s
-Single stepping until exit from function __register_frame_info,
-which has no line number information.
-0x0040128a in __register_frame_info ()
+input_complex () at problem11.c:31
+31          printf("Enter real part: ");
+(gdb) s
+Enter real part: 32         scanf("%f", &x.real);
+(gdb) s
+c
+33          printf("Enter imaginary part: ");
 (gdb) c
 Continuing.
-[Inferior 1 (process 1420) exited normally]
+Enter imaginary part: For second complex number:
+Enter real part: Enter imaginary part: The sum of 0 + 2026210738700739000000000000000000i and 0 + 2026210738700739000000000000000000i is 0 + 4052421477401478000000000000000000i
+[Inferior 1 (process 7180) exited normally]
 (gdb) q
