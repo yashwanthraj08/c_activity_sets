@@ -1,0 +1,10 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01> .\a.exe        
+Enter the number of complex numbers: 2
+For complex number 1:
+Enter real part: 2
+Enter imaginary part: 5.6
+For complex number 2:
+Enter real part: 3
+Enter imaginary part: 4.4
+The sum of the 2 complex numbers is 5 + 10i
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set01>
