@@ -1,0 +1,43 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014f5: file problem01.c, line 21.
+(gdb) r
+Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02/a.exe 
+[New Thread 4980.0xa78]
+[New Thread 4980.0x124]
+
+Breakpoint 1, main () at problem01.c:21
+21          input(&base, &height);
+(gdb) n
+enter the value of base3
+enter the value of height4
+22          find_area(base, height, &area);
+(gdb) s
+find_area (base=3, height=4, area=0x61ff14) at problem01.c:12
+12          *area=0.5*base*height;
+(gdb) s
+13      }
+(gdb) s
+main () at problem01.c:23
+23          output(base, height, area);
+(gdb) s
+output (base=3, height=4, area=6) at problem01.c:16
+16          printf("The area of the triangle is %f\n", area);
+(gdb) s
+The area of the triangle is 6.000000
+17      }
+(gdb) c
+Continuing.
+[Inferior 1 (process 4980) exited normally]
+(gdb) q
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> 
