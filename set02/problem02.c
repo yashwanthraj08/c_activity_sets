@@ -1,5 +1,4 @@
 //02.  Write a program to find if a triangle is scalene.
-//02.  Write a program to find if a triangle is scalene.
 #include <stdio.h>
 
 
