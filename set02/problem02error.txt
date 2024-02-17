@@ -1,0 +1,9 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gcc problem02.c       
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> .\a.exe               
+Enter the side of triangle
+3
+Enter the side of triangle
+4
+Enter the side of triangle
+5
+The triangle is scalene.
