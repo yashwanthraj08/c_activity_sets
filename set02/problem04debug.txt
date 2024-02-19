@@ -1,0 +1,34 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem03.c, line 11.
+(gdb) r
+Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02/a.exe 
+[New Thread 2540.0x1908]
+[New Thread 2540.0x33c0]
+
+Breakpoint 1, main () at problem03.c:11
+11          int n = input_number();
+(gdb) s
+input_number () at problem03.c:19
+19          printf("Enter a number: ");
+(gdb) s
+Enter a number: 20          scanf("%d", &x);
+(gdb) s
+s
+21          return x;
+(gdb) c
+Continuing.
+6422476 is a composite number.
+[Inferior 1 (process 2540) exited normally]
+(gdb) q
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> 
