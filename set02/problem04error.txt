@@ -1,0 +1,10 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gcc problem04.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> .\a.exe        
+Enter the size of the array: 2
+Element 2: 4
+Sum of composite numbers in the array: 4
+Enter the size of the array: 2
+Enter the elements of the array:
+Element 1: 4
+Element 2: 6
+Sum of composite numbers in the array: 10
