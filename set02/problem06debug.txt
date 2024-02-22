@@ -1,0 +1,34 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401471: file problem06.c, line 12.
+(gdb) r
+Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02/a.exe 
+[New Thread 14800.0x3a90]
+[New Thread 14800.0x3a20]
+
+Breakpoint 1, main () at problem06.c:12
+12          input_string(input_str);
+(gdb) s
+input_string (a=0x61febc "ü_a") at problem06.c:21
+21          printf("Enter a string: ");
+(gdb) s
+Enter a string: 22          gets(a);
+(gdb) s
+s
+23      }
+(gdb) c
+Continuing.
+Original String: s
+Reversed String: s
+[Inferior 1 (process 14800) exited normally]
+(gdb) q
