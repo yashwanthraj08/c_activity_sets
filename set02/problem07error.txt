@@ -1,0 +1,5 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gcc problem07.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> .\a.exe
+Enter the base of the triangle: 5
+Enter the altitude of the triangle: 6
+Triangle - Base: 5, Altitude: 6, Area: 15
