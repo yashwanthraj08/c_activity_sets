@@ -1,0 +1,403 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> git config --global user.email "yashwanthr.bsc23@rvu.edu.in"
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> git config --global user.name "yashwanthr"
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> git log
+commit 525b092d573c102f0ecf18bbf345235dfb361ea2 (HEAD -> main, origin/main, origin/HEAD)
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:16:34 2024 +0530
+
+    probleam07error.txt
+
+commit b077d99f5ecae1d8b2ff9e9bf480258ff59a8fac
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:14:19 2024 +0530
+
+    probleam07debug.txt
+
+commit fb4d9773f2e60088b54f5fcdcedc805bb664d434
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:11:54 2024 +0530
+
+    test
+
+commit bb5b0aa074660cd36e4e46d9cd7356239e8a45c5
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:27:18 2024 +0530
+
+    probleam06error.txt
+
+commit db0e6e65fdf4415d68fed381bf71f12b86cf4d4c
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:24:52 2024 +0530
+
+    probleam06debug.txt
+
+commit 0439235c2733cc0164052f9c8fe707a7affda98e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:11:11 2024 +0530
+
+    test
+
+commit 366f80b87adfbd7506ca9661973e8316a61bc33d
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 18:13:57 2024 +0530
+
+    probleam06error.txt
+
+commit 95ed1895ca053f41c700716c11cfad9882d75f1c
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 18:08:22 2024 +0530
+
+    probleam05debug.txt
+
+commit 4fb81538de9aa7f2a1199db39540b8cb92e66801
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 18:05:43 2024 +0530
+
+    test
+
+commit ec56e48f709f1bae4c6bf40698b22ca7f7a3b2d4
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 17:58:14 2024 +0530
+
+    probleam04error.txt
+
+commit d7ff984797538de079498d2faec7acde4a551381
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 17:55:25 2024 +0530
+
+    probleam04debug.txt
+
+commit 56a40b0ea08f389178e39938b4bb7bf4abbe5c4c
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Feb 20 17:53:28 2024 +0530
+
+    test
+
+commit 4765924268a63b9ef9e0b8484356156eb292b0da
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Feb 19 19:09:23 2024 +0530
+
+    probleam03error.txt
+
+commit c2209d12be25763993c5cd3975cf60c160b1577f
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Feb 19 19:08:16 2024 +0530
+
+    probleam03error.txt
+
+commit c949a399d1b51b2e3dffa800b0ba4004cbb7127e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Feb 19 19:06:28 2024 +0530
+
+    probleam03debug.txt
+
+commit c2f308562b390068051c55ae64dc1511ebf15617
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Feb 19 19:04:50 2024 +0530
+
+    test
+
+commit a3955ec48702d8ae4f267173390df4e39f020af4
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sun Feb 18 17:59:06 2024 +0530
+
+    test
+
+commit e508f8aa569b8a5f891ef3c7b613c4a06127a925
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sun Feb 18 17:49:27 2024 +0530
+
+    test
+
+commit 6f7fded3f7154ba0d9dc798a200f6f2ecd8682a7
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Feb 17 18:17:19 2024 +0530
+
+    probleam02debug.txt
+
+commit b547e5834de0adb6d69496437513004073a77cf6
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Feb 17 18:09:41 2024 +0530
+
+    test
+
+commit 8d78afe44163efaa6aabe3a4b22eb6b60fe53cc6
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Feb 17 17:57:42 2024 +0530
+
+    test
+
+commit f9153190d9a6693251094bba8adc8cd8babd4bb8
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Feb 17 17:53:26 2024 +0530
+
+    test
+
+commit b15d73e5c34ad2ce781c2faf47c19f6fb4e817fb
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Feb 17 17:39:06 2024 +0530
+
+    test
+
+commit 45bd9135376b1bb030097251c545c70a81cd2145
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Fri Feb 16 14:10:56 2024 +0530
+
+    probleam01error.txt
+
+commit ad780f68d9c5031c75481aa2cf85b20b8a6c6c1e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Fri Feb 16 14:07:21 2024 +0530
+
+    probleam01debug.txt
+
+commit a568c2b3b9df37ad6b51a90809b76f8be92a67c6
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Fri Feb 16 13:46:44 2024 +0530
+
+    test
+
+commit 60bb6d32176a682dbe071bce2d5fb45f4deff033
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Jan 27 14:36:17 2024 +0530
+
+    probleam12debug.txt
+
+commit 15fb155639c18f12509d87dd9ae6ed1bc0495d69
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Jan 27 14:33:05 2024 +0530
+
+    probleam11debug.txt
+
+commit c4f86be0f7a5b9dbb07a6a490b054b97bb485451
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Jan 27 14:15:05 2024 +0530
+
+    test
+
+commit 7339f97c0bca28bb795abfa2a27a4b06c7cd922b
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Jan 27 14:09:19 2024 +0530
+
+    probleam11debug.txt
+
+commit 83876f8ed62f080ad9b0f4de54c243201ff1c3d2
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Sat Jan 27 14:06:06 2024 +0530
+
+    test
+
+commit 39116f088396a985279ca23f310865435cfb3a9d
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:46:40 2024 +0530
+
+    probleam10error.txt
+
+commit dfef649b22eddfab7c6dd8d6dc06095dc6479dc4
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:44:04 2024 +0530
+
+    probleam10debug.txt
+
+commit 969dab2eb0fb29726b6a948f2e435960a42b639e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:39:03 2024 +0530
+
+    test
+
+commit 004cde462f7131a57e8f951f1e0d65a52196885a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:36:13 2024 +0530
+
+    probleam09error.txt
+
+commit 80613fa7382ad94f6aa1590b23b681286cd8b732
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:32:43 2024 +0530
+
+    test
+
+commit c8d7b1223e7ff00d287d8340a529927432f9272e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:29:20 2024 +0530
+
+    probleam08error.txt
+
+commit bf768065f412e659fc3a82ff35e5efb39bf26aec
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Jan 25 09:25:36 2024 +0530
+
+    test
+
+commit 5ddd6eaae6904e588189aec70bb5a2369eabaf49
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:50:23 2024 +0530
+
+    probleam07debug.txt
+
+commit 59bc8de6aa73f7d20b9445ec97896dec4083346a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:47:30 2024 +0530
+
+    probleam06debug.txt
+
+commit c8b7fa296dd25e96165d6980fae3be7de97a18f1
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:45:44 2024 +0530
+
+    probleam05debug.txt
+
+commit 5dd777b1fbe0d50e6adb3001348e296d716f6473
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:43:27 2024 +0530
+
+    probleam04debug.txt
+
+commit fab4b98ae470a001bc20fa5a8534c8c91299afa9
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:39:55 2024 +0530
+
+    probleam03debug.txt
+
+commit e9666ed200bd309537ca192df457f104f3acb44a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:36:22 2024 +0530
+
+    probleam02debug.txt
+
+commit c47ca9a1223577e7f17d7dbe67a551f857a37dc4
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:21:43 2024 +0530
+
+    probleam07error.txt
+
+commit 6bb666b0560e23f0508db1596f76e4577f60db63
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 10:19:13 2024 +0530
+
+    test
+
+commit 9c8ef4a9578fa2339e6aa3310751a2323ac4a65a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 09:57:50 2024 +0530
+
+    probleam06error.txt
+
+commit ada313b820ff81295d91b70a1a553b1d7d8cac01
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 09:55:55 2024 +0530
+
+    test
+
+commit de45e0b8d7908430019d90dfa9061a52ea6cdd16
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 09:49:53 2024 +0530
+
+    probleam05debug.txt
+
+commit 1b587097571fef6329383cf2205ddb54e6042bd1
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Wed Jan 24 09:46:28 2024 +0530
+
+    test
+
+commit c2617306e6244f8c8626c15a5f8fdb9ba607db19
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 10:46:29 2024 +0530
+
+    probleam04error.txt
+
+commit 60734bb35066d6dd99b611fec4dabf4f140c2cc5
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 10:44:10 2024 +0530
+
+    probleam04debug.txt
+
+commit 9c5d9d850836dd80c1baea02a83870d2aa6be17d
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 10:37:04 2024 +0530
+
+    test
+
+commit e12aeecdb4bf30213236b5180542f3aceac1a816
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 10:26:45 2024 +0530
+
+    probleam03debug.txt
+
+commit 18cd0cee57a79f612db487e67ea66341d31c610a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 10:23:22 2024 +0530
+
+    test
+
+commit 85f4129c1926a100f24471773bd5ee5f04fbf035
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 09:55:47 2024 +0530
+
+    problem02error.txt
+
+commit 0e86d1718b3a0878e52150384b3fb9ebe8e076bc
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 09:49:41 2024 +0530
+
+    problem02debug.txt
+
+commit c65011e02c7f363af0f52b5f4aece1dcf1377991
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Tue Jan 23 09:44:49 2024 +0530
+
+    test
+
+commit cb8ec3a04fa5339f67b068c978f18c968764fc1a
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Jan 22 12:28:06 2024 +0530
+
+    problem01debug.txt
+
+commit e33856244c785acd7cf4ea416ab1a62949549c1e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Mon Jan 22 11:52:23 2024 +0530
+
+    test
+
+commit 388600a2006c07b5c1e1b46df6dfe749d6af6e84
+
+commit 388600a2006c07b5c1e1b46df6dfe749d6af6e84
+commit 525b092d573c102f0ecf18bbf345235dfb361ea2 (HEAD -> main, origin/main, origin/HEAD)
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:16:34 2024 +0530
+
+    probleam07error.txt
+
+commit b077d99f5ecae1d8b2ff9e9bf480258ff59a8fac
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:14:19 2024 +0530
+
+    probleam07debug.txt
+
+commit fb4d9773f2e60088b54f5fcdcedc805bb664d434
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 20:11:54 2024 +0530
+
+    test
+
+commit bb5b0aa074660cd36e4e46d9cd7356239e8a45c5
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:27:18 2024 +0530
+
+    probleam06error.txt
+
+commit db0e6e65fdf4415d68fed381bf71f12b86cf4d4c
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:24:52 2024 +0530
+
+    probleam06debug.txt
+
+commit 0439235c2733cc0164052f9c8fe707a7affda98e
+Author: Yashwanth <yashwanthr.bsc@rvu.edu.in>
+Date:   Thu Feb 22 09:11:11 2024 +0530
+
+    test
+
+:
