@@ -1,0 +1,19 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> gcc problem08.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02> .\a.exe
+Enter the number of triangles: 2
+
+Enter Triangle 1:
+Enter the base of the triangle: 12
+Enter the altitude of the triangle: 34
+
+Enter Triangle 2:
+Enter the base of the triangle: 21
+Enter the altitude of the triangle: 23
+
+Triangle with smallest area:
+Base: 12, Altitude: 34, Area: 204
+
+All Triangles:
+Triangle 1 - Base: 12, Altitude: 34, Area: 204
+Triangle 2 - Base: 21, Altitude: 23, Area: 242
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set02>
