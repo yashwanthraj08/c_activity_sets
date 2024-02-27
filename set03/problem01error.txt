@@ -1,0 +1,7 @@
+S C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set03> gcc problem01.c
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set03> .\a.exe
+Enter the coordinates of point 1 (x1 y1): 234
+4
+Enter the coordinates of point 2 (x2 y2): 4
+3
+Distance between (234, 4) and (4, 3) is: 230
