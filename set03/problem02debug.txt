@@ -1,0 +1,66 @@
+PS C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set03> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set03\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem02.c, line 10.
+(gdb) r
+Starting program: C:\Users\hp\Desktop\sem2 psc\c_activity_sets\set03/a.exe 
+[New Thread 18856.0x4950]
+[New Thread 18856.0x4324]
+
+Breakpoint 1, main () at problem02.c:10
+10          input_triangle(&x1, &y1, &x2, &y2, &x3, &y3);
+(gdb) s
+input_triangle (x1=0x61ff18, y1=0x61ff14, x2=0x61ff10, y2=0x61ff0c, x3=0x61ff08, y3=0x61ff04) at problem02.c:18
+18          printf("Enter coordinates of Point 1 (x1 y1): ");
+(gdb) s
+Enter coordinates of Point 1 (x1 y1): 19            scanf("%f %f", x1, y1);
+(gdb) s
+s
+21          printf("Enter coordinates of Point 2 (x2 y2): ");
+(gdb) s
+Enter coordinates of Point 2 (x2 y2): 22            scanf("%f %f", x2, y2);
+(gdb) s
+24          printf("Enter coordinates of Point 3 (x3 y3): ");
+(gdb) s
+Enter coordinates of Point 3 (x3 y3): 25            scanf("%f %f", x3, y3);
+(gdb) s
+26      }
+(gdb) s
+main () at problem02.c:11
+11          int result = is_triangle(x1, y1, x2, y2, x3, y3);
+(gdb) s
+is_triangle (x1=4.78118552e-039, y1=0, x2=5.88724721e-039, y2=5.88737473e-039, x3=8.99963199e-039, y3=5.88724721e-039)
+    at problem02.c:30
+30          float area = 0.5 * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2)));
+(gdb) s
+31          return (area != 0);
+(gdb) s
+32      }
+(gdb) s
+main () at problem02.c:12
+12          output(x1, y1, x2, y2, x3, y3, result);
+(gdb) s
+output (x1=4.78118552e-039, y1=0, x2=5.88724721e-039, y2=5.88737473e-039, x3=8.99963199e-039, y3=5.88724721e-039, result=0)
+    at problem02.c:37
+37          if (result)
+(gdb) s
+43              printf("The points (%.f, %.f), (%.f, %.f), and (%.f, %.f) do not form a triangle.\n", x1, y1, x2, y2, x3, y3);
+(gdb) s
+The points (0, 0), (0, 0), and (0, 0) do not form a triangle.
+45      }
+(gdb) s
+main () at problem02.c:13
+13          return 0;
+(gdb) c
+Continuing.
+[Inferior 1 (process 18856) exited normally]
+(gdb) q
