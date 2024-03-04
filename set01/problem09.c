@@ -1,39 +1,52 @@
-#include <stdio.h>
+//9. Write a C program to find the [square root] of a number.
+#include<stdio.h>
 
-float input();
-float square_root(float n);
-void output(float n, float sqrroot);
 int main()
 {
-    float n,s;
+    float n,root;
     n=input();
-    s=square_root(n);
-    output(n,s);
+    root=mysqrt(n);
+    output(n,root);
     return 0;
 }
-
 float input()
-{
-    float n;
-    printf("Enter the number you want square root of");
-    scanf("%f",&n);
-    return n;
+{  
+    int x;
+    printf("enter the value:");
+    scanf("%d",&x);
+    return x;
 }
-
-float square_root(float n)
+float mysqrt(float n)
 {
-    float a,b=0;
-    a=n/2;
-    while(a!=b)
+     float x;
+      x=n*1.0/2;
+    
+    while(x*x!=n)
     {
-        b=a;
-        a=(n/b+b)/2;
+        if(x*x>n-0.001 && x*x<n+0.001)
+        {
+            return x;
+        }
+        if(x*x>n)
+        {
+            x=(x+n/x)/2;
+        }
+        else
+        {
+            x=x+x/n;
+        }
+  }
+        return x;
     }
-    return a;
-}
 
-void output(float n,float s)
+void output(float x, float root)
 {
-    printf("The square root of %.f is %f",n,s);
+    printf("sqrt of %.2f is %.2f\n",x,root);
 }
-
+int main(void)
+{
+    float n,root;
+    n=input();
+    root=mysqrt(n);
+    output(n,root);
+}
